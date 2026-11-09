@@ -61,6 +61,7 @@ lab03/
   model.py
   core.py
   app.py
+  main.py
   baseline.py
   benchmark.py
   tests/test_immutability.py
@@ -88,7 +89,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 # Windows: .venv\Scripts\activate
 python -m pip install -r requirements.txt
-python app.py
+python main.py
 ```
 
 Демонстрація: оригінал має 2 покази із середнім 21.00; після додавання
@@ -150,3 +151,5 @@ python benchmark.py
 версій і не доводять універсальної переваги незмінних структур.
 
 Умова: наданий `Lab_03.docx`, варіант 14.
+
+`main.py` — точка входу: запускає демонстрацію з `app.py`.
